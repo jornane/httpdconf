@@ -8,3 +8,5 @@ Setup.*
 Setup
 !Setup.hs
 *~
+.dist-*
+.project
