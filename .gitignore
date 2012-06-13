@@ -1,6 +1,10 @@
 dist
 cabal-dev
-*.o
+*.[oa]
 *.hi
 *.chi
 *.chs.h
+Setup.*
+Setup
+!Setup.hs
+*~
