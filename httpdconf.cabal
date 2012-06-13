@@ -13,3 +13,6 @@ executable httpdconf
     hs-source-dirs: src
     main-is:Main.hs
     ghc-options: -Wall
+    other-modules: 
+                   DataType.Commissie,
+                   DataType.VHost
