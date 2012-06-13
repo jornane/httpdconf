@@ -1,0 +1,15 @@
+name: httpdconf
+version: 0.0.1
+cabal-version: >=1.8
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+data-dir: ""
+ 
+executable httpdconf
+    build-depends: base >=4,
+                   containers >= 0.4
+    buildable: True
+    hs-source-dirs: src
+    main-is:Main.hs
+    ghc-options: -Wall
